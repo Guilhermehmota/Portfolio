@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import Presentation from './components/Presentation/Presentation';
-import Content from './components/Content/Content';
 import EducationSection from './components/EducationSection/EducationSection';
-import Portfolio from './components/Portfolio/Portfolio';
+import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Cover from './components/Cover/Cover'
+import WhatIDo from './components/WhatIDo/WhatIDo';
 
-export const PageWrapper = styled.div`
+export const MainContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,26 +16,27 @@ export const PageWrapper = styled.div`
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 `
-const SpecialWrapper = styled.div`
+const DivContainers = styled.div`
   width: 100%;
 `
 
 const App = () => {
-  React.createRef()
   return (
-    <PageWrapper>
-      <Cover projectsInfo='#projects' contactInfo='#contact' />
+    <MainContainer>
+      <Cover aboutMeInfo='#aboutMe' projectsInfo='#projects' contactInfo='#contact' />
+      <DivContainers id='aboutMe'>
       <Presentation />
-      <Content />
+      </DivContainers>
+      <WhatIDo />
       <EducationSection />
-      <SpecialWrapper id='projects'>
-        <Portfolio />
-      </SpecialWrapper>
-      <SpecialWrapper id='contact'>
+      <DivContainers id='projects'>
+        <Projects />
+      </DivContainers>
+      <DivContainers id='contact'>
         <Contact />
-      </SpecialWrapper>
+      </DivContainers>
       <Footer />
-    </PageWrapper>
+    </MainContainer>
   );
 }
 

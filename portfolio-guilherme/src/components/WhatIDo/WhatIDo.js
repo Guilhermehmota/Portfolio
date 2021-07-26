@@ -61,18 +61,8 @@ export const FrontEnd = styled.div`
             font-weight: normal;
             letter-spacing: -0.22px;
             margin-bottom: 20px;
-            @media only screen and (max-width: 480px ){
-                font-size: 20px;
-            }
         }
-        &:nth-of-type(3) {
-            font-size: 16px;
-            font-weight: normal;
-            letter-spacing: -0.22px;
-            @media only screen and (max-width: 480px ){
-                font-size: 20px;
-            }
-        }}
+        }
 `
 export const BackEnd = styled.div`
     width: 40%;
@@ -97,40 +87,25 @@ export const BackEnd = styled.div`
             font-weight: normal;
             letter-spacing: -0.22px;
             margin-bottom: 20px;
-            @media only screen and (max-width: 480px ){
-                font-size: 20px;
-            }
         }
-        &:nth-of-type(3) {
-            font-size: 16px;
-            font-weight: normal;
-            letter-spacing: -0.22px;
-            @media only screen and (max-width: 480px ){
-                font-size: 20px;
-            }
-        }}
+    }
 `
 
-const Content = () => {
+const WhatIDo = () => {
     return (
         <Container>
-            <Text>O que faço </Text>
+            <Text>O que faço ?</Text>
             <MainWrapper>
                 <FrontEnd>
                     <span>Front-end</span>
                     <span>
                         Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
                     </span>
-                    <span>
-                        Criação de sites responsivos seguindo princípio de Mobile First.
-                    </span>
                 </FrontEnd>
                 <BackEnd>
                     <span>Back-end</span>
                     <span>
                         Aplicações utilizando NodeJS, Typescript e MySQL.
-                    </span>
-                    <span>
                         Criação de API's para comunicação com front-end seguindo princípio de Clean Code.
                     </span>
                 </BackEnd>
@@ -139,4 +114,4 @@ const Content = () => {
     )
 }
 
-export default Content
+export default WhatIDo
