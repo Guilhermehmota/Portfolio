@@ -42,9 +42,6 @@ export const AboutMe = styled.div`
     margin-left: 20%;
     span {
             font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: normal;
             letter-spacing: -0.29px;
             color: #ffffff;
             &:first-of-type {
@@ -64,7 +61,6 @@ export const AboutMe = styled.div`
             }
             &:nth-of-type(3) {
                 font-size: 25px;
-                font-weight: normal;
                 letter-spacing: -0.32px;
                 white-space: nowrap;
                 margin-bottom: 12px;
@@ -79,9 +75,6 @@ export const AboutMe = styled.div`
                 white-space: nowrap;
                 @media only screen and (max-width: 767px) {
                     white-space: normal;
-                }
-                @media only screen and (max-width: 480px ){
-                    font-size: 20px;
                 }
             }
     }

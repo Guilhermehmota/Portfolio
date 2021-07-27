@@ -15,9 +15,6 @@ export const Text = styled.div`
     padding-top: 46px;
     font-size: 25px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: -0.15px;
     text-align: center;
     color: #ffffff;
@@ -48,9 +45,6 @@ export const FrontEnd = styled.div`
     span {
         font-size: 55px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.32px;
         color: #ffffff;
         &:first-of-type {
@@ -58,7 +52,6 @@ export const FrontEnd = styled.div`
         }
         &:nth-of-type(2) {
             font-size: 16px;
-            font-weight: normal;
             letter-spacing: -0.22px;
             margin-bottom: 20px;
         }
@@ -74,9 +67,6 @@ export const BackEnd = styled.div`
     span {
         font-size: 55px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.32px;
         color: #ffffff;;
         &:first-of-type {
@@ -84,7 +74,6 @@ export const BackEnd = styled.div`
         }
         &:nth-of-type(2) {
             font-size: 16px;
-            font-weight: normal;
             letter-spacing: -0.22px;
             margin-bottom: 20px;
         }

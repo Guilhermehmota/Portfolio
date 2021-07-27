@@ -6,8 +6,6 @@ export const Container = styled.div`
     background-color: #063447;
     box-sizing: border-box;
     padding: 60px 0;
-    @media only screen and (max-width: 984px){
-    }
 `
 export const DivProfile = styled.div`
     width: 100%;
@@ -45,8 +43,6 @@ export const DivPresentation = styled.div`
     }
     span {
         font-size: 42px;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.32px;
         color: #ffffff;
         &:first-of-type {
@@ -55,14 +51,12 @@ export const DivPresentation = styled.div`
         }
         &:nth-of-type(2) {
             font-size: 15px;
-            font-weight: normal;
             letter-spacing: -0.16px;
             margin-bottom: 26px;
         }
         &:nth-of-type(3) {
             text-align: center;
             font-size: 18px;
-            font-weight: normal;
             letter-spacing: -0.28px;
             margin-bottom: 26px;
         }
@@ -79,10 +73,6 @@ export const Button = styled.div`
     padding-top: 5px;
     span {
         font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.28px;
     }
 `

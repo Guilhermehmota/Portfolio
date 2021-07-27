@@ -13,17 +13,11 @@ export const Title = styled.div`
     font-family: Montserrat;
     font-size: 25px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: -0.15px;
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
     padding: 46px 0 29px 0;
-    @media only screen and (max-width: 480px ){
-        font-size: 31px;
-    }
 `
 export const DivContainer = styled.div`
     display: flex;
@@ -53,9 +47,6 @@ export const EducationCard = styled.div`
     span {
             font-size: 21px;
             font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: normal;
             letter-spacing: -0.28px;
             color: #292929;
             &:first-of-type {
@@ -63,13 +54,11 @@ export const EducationCard = styled.div`
             }
             &:nth-of-type(2), &:nth-of-type(3) {
                 font-size: 18px;
-                    font-weight: normal;
                     letter-spacing: -0.16px;
                     margin-bottom: 12px;
             } 
             &:nth-of-type(4){
                 font-size: 17px;  
-                font-weight: normal;
             }
         }
 `

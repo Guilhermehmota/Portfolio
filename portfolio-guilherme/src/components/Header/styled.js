@@ -13,9 +13,6 @@ export const Container = styled.div`
         margin-left: 20px;
         font-size: 21px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.28px;
         color: #ffffff;
         &:first-of-type {
@@ -33,10 +30,6 @@ export const DivNav = styled.div`
             height: 19px;
             font-family: Montserrat;
             font-size: 20px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: normal;
             letter-spacing: -0.20px;
             text-align: center;
             color: #4eaccf;
@@ -46,5 +39,5 @@ export const DivNav = styled.div`
 `
 export const Link = styled.a`
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 `

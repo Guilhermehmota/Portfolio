@@ -13,17 +13,11 @@ export const Title = styled.div`
     font-family: Montserrat;
     font-size: 25px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: -0.15px;
     text-align: center;
     color: #4eaccf;
     padding: 43px 0 42px 0;
     white-space: nowrap;
-    @media only screen and (max-width: 480px ){
-        font-size: 31px;
-    }
 `
 export const DivProject = styled.div`
     width: 70%;
@@ -72,9 +66,6 @@ export const ProjectDescription = styled.div`
     span {
         font-size: 42px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.25px;
         color: #063447;
         &:nth-of-type(2) {
@@ -91,9 +82,6 @@ export const ProjectDescription = styled.div`
             font-weight: normal;
             letter-spacing: -0.28px;
             margin-bottom: 23px;
-            @media only screen and (max-width: 480px ){
-                font-size: 18px;
-            }
         }
     }
     div {
@@ -103,13 +91,9 @@ export const ProjectDescription = styled.div`
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #4eaccf;
         font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.28px;
         text-align: center;
-        color: white;
+        color: #ffffff;
         box-sizing: border-box;
         padding: 8px 0;
         margin-bottom: 5px;
@@ -127,17 +111,14 @@ export const DivButton = styled.div`
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #063447;
         font-size: 14px;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.2px;
         margin: 0 auto;
         text-align: center;
-        color: white;
+        color: #ffffff;
         padding-top: 10px;
     }
 `
 export const Link = styled.a`
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 `

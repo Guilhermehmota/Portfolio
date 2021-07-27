@@ -14,9 +14,6 @@ export const Container = styled.div`
         height: 150px;
         font-size: 42px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: -0.25px;
         text-align: center;
         color: #ffffff;
@@ -28,15 +25,11 @@ export const Container = styled.div`
         }
         &:nth-of-type(2) {
             font-size: 18px;
-            font-weight: normal;
             letter-spacing: -0.24px;
             text-align: center;
             @media only screen and (max-width: 767px){
                 max-width: 80%
             };
-            @media only screen and (max-width: 480px ){
-                font-size: 20px;
-            }
         }
         &:nth-of-type(3) {
             width: 20%;
