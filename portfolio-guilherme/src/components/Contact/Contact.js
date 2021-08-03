@@ -11,7 +11,7 @@ const Contact = () => {
             <div>Contrate-me!</div>
             <div>
                     Procuro oportunidade de trabalho onde eu possa aprender,
-                    me desenvolver e evoluir na minha carreia profissional.<br/>
+                    me desenvolver e evoluir na minha carreira profissional.<br/>
                     <br/>
                     E-mail para contato: guilhermehmota12@gmail.com<br/>
             </div>
